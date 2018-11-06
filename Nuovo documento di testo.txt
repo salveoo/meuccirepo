@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int c, *ptr, r, i = 0;
+	cout << "inserire numero di righe" << endl;
+	cin >> r;
+	cout << "inserire numero di colonne" << endl;
+	cin >> c;
+	cout << "inserire le cifre" << endl;
+	ptr = new int[r*c];
+	for (int *i = &ptr[0]; i < &ptr[r*c]; i++)
+		cin >> *i;
+	for (int *j = &ptr[0]; j < &ptr[r*c]; j++)
+	{
+		cout << *j << " ";
+		i++;
+		if (i == c)
+		{
+			cout << endl;
+			i = 0;
+		}
+	}
+	cout << endl;
+	delete[]ptr;
+	system("pause");
+}
