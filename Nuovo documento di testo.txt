@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int c, *ptr, r, i = 0;
-	cout << "inserire numero di righe" << endl;
+	cout << "inserire numero di luce" << endl;
 	cin >> r;
 	cout << "inserire numero di colonne" << endl;
 	cin >> c;
