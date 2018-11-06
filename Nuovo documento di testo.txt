@@ -22,6 +22,7 @@ int main()
 		}
 	}
 	cout << endl;
+	cout<<"Fritz è un figo della madonna"<<endl;
 	delete[]ptr;
 	system("pause");
 }
