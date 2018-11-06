@@ -13,13 +13,7 @@ int main()
 		cin >> *i;
 	for (int *j = &ptr[0]; j < &ptr[r*c]; j++)
 	{
-		cout << *j << " ";
-		i++;
-		if (i == c)
-		{
-			cout << endl;
-			i = 0;
-		}
+		cout<<"skrt";
 	}
 	cout << endl;
 	cout<<"Fritz è un figo della madonna"<<endl;
